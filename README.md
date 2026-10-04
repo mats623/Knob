@@ -12,7 +12,7 @@ Knob intercepts the volume keys only when the current output has no volume contr
 | **Monitor** | Sets the monitor's own volume via DDC/CI. Speakers connected to the monitor's AUX out usually follow it. |
 | **Software** | Routes system audio through a Core Audio process tap and applies the volume before it reaches the output. No driver needed. |
 
-- Knob turn → volume in 16 steps, hold **⌥⇧** for fine steps
+- Knob turn → volume in 5 % steps, hold **⌥⇧** for 1 % steps
 - Knob press → mute
 - Minimal on-screen HUD (Liquid Glass on macOS 26+), follows light/dark mode
 - Menu bar slider, method picker, launch at login

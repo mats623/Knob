@@ -185,7 +185,7 @@ final class VolumeController: ObservableObject {
     // MARK: Volume
 
     private func handle(_ key: MediaKeyTap.Key, fine: Bool) {
-        let step = fine ? 1.0 / 64 : 1.0 / 16
+        let step = fine ? 0.01 : 0.05
         switch key {
         case .up: setVolume((volume / step).rounded() * step + step)
         case .down: setVolume((volume / step).rounded() * step - step)
